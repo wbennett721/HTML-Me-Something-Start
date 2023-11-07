@@ -1,4 +1,53 @@
 /* Write your CSS here! */
-h1 {
-    text-decoration: underline;
+body {
+    width: 100%;
+    max-width: 1024px;
+    margin: 8px;
+    background-color: #989de7;
+    font-size: 15px;
+}
+
+ul#testP li {
+    font-weight: normal;
+    font-size: 15px;
+    color: black;
+ }
+
+#mainHeading {
+    
+    font-weight: normal;
+    font-size: 15px;
+    color: red;
+    
+ }
+
+.funParagraph {
+    color: green;
+ }
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+div {
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
